@@ -1,0 +1,54 @@
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+    background-color:lightpink;
+    border:3px solid lightcoral;
+    border-radius: 30px;
+    width:250px;
+    padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+
+}
+p:hover{
+    background-color: #e1959b;
+}
+a{
+    text-decoration: none;
+    color: black ;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+.poze{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+img:hover{
+    transform: scale(1.2);
+}
+img{
+    border: 8px groove black;
+    width: 450px;
+    height: 300px;
+    margin:40px;
+    transition:all 1s;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/farm-animal-watercolor-drawing-illustration-animal-childish-drawing-sheep-cow-pig-bunny-duck-rainbow-cute-aesthetic-animal-drawing_58032-851.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.buton{
+    float: right;
+}
+.container-fluid{
+    background-color: #e1959b;
+}
